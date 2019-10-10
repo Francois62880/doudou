@@ -1,0 +1,1351 @@
+# Translation of Plugins - Replyable &#8211; Subscribe to Comments and Reply by Email - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Replyable &#8211; Subscribe to Comments and Reply by Email - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-12 11:28:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Replyable &#8211; Subscribe to Comments and Reply by Email - Development (trunk)\n"
+
+#: admin/comment-options-tab.php:134
+msgid "How many comments in one hour should it take to trigger flood control? There is a mimimum of 2 (one comment, one reply)."
+msgstr "À partir de combien de commentaires en une heure faut il déclencher la limitation du flux ? Il y a un minimum de 2 (un commentaire, une réponse)."
+
+#: core/user.php:94
+msgid "Conversation Subscriptions"
+msgstr "Abonnements aux conversations"
+
+#: admin/recommended-plugins-options-tab.php:90
+msgid "Upgrade Replyable and get 25% off 6 months of premium Sift Ninja service!"
+msgstr "Mettez Replyable à niveau et obtenez 25% de réduction pendant 6 mois sur le service premium de Sift Ninja !"
+
+#: admin/recommended-plugins-options-tab.php:80
+msgid "The quickest, cleverest and most accurate filter for auto-moderating comments. Language isn’t black and white so your filter shouldn’t be either."
+msgstr "Le filtre le plus rapide, le plus intelligent et le plus précis de modération automatique des commentaires. Le langage humain n’est pas en noir et blanc, vos filtres ne devraient pas l’être non plus."
+
+#: admin/core-options-tab.php:103
+msgid "Your Replyable API Key (used for troubleshooting)"
+msgstr "Votre clé API Replyable (utilisé pour diagnostic)"
+
+#: admin/email-options-tab.php:312
+msgid "Include \"Delivered by Replyable\" in the footer area. We appreciate it!"
+msgstr "Ajoute « Envoyé par Replyable » en pied de page. Merci de nous soutenir !"
+
+#: admin/email-options-tab.php:305
+msgid "Share the love?"
+msgstr "Partagez votre avis ?"
+
+#: admin/core-options-tab.php:93
+msgid "Read the docs"
+msgstr "Lire la documentation"
+
+#: admin/core-options-tab.php:84
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: admin/core-options-tab.php:61
+msgid "Configure Replyable using the tabs above, or get help below."
+msgstr "Configurez Replyable en utilisant les onglets ci-dessus, ou trouvez de l’aide ci-dessous."
+
+#: admin/core-options-tab.php:58
+msgid "Welcome to Replyable"
+msgstr "Bienvenue dans Replyable"
+
+#. Description of the plugin
+msgid "Two-way email commenting for WordPress. Subscribe to Comments reimagined. Smarter. More contextual. Mobile ready. Replyable."
+msgstr "Les commentaires par e-mail en double sens pour WordPress. « Subscribe to Comments » réinventé. Plus intelligement. Avec plus de contexte. Compatible mobile. Replyable."
+
+#. Plugin Name of the plugin
+msgid "Replyable - Subscribe to Comments & Reply by email"
+msgstr "Replyable - Abonnements et réponses aux commentaires, par e-mail"
+
+#: templates/text/subscription-agreement-email-text.php:25
+msgid "To confirm your subscription, please visit this web page:"
+msgstr "Pour confirmer votre abonnement, veuillez vous rendre sur cette page :"
+
+#: templates/html-inlined/subscription-agreement-email.php:38
+msgid "To confirm your subscription, <a href=\"%s\" style=\"%s\"><strong style=\"%s\">click here</strong></a>."
+msgstr "Pour confirmer votre abonnement, <a href=\"%s\" style=\"%s\"><strong style=\"%s\">cliquer ici</strong></a>."
+
+#: templates/html-inlined/rejoined-email.php:52
+msgid "To unsubscribe at any time reply with the word <strong>unsubscribe."
+msgstr "Pour vous désabonner à tout moment, répondez avec le mot <strong>désabonnement."
+
+#: templates/html-inlined/rejoined-email.php:37
+msgid "<strong>Please note: Your reply will be published publicly and immediately on %s."
+msgstr "<strong>Prenez note : Votre réponse sera publiée publiquement et immédiatement sur %s."
+
+#: templates/html-inlined/new-user-email.php:13
+msgid "It's not required, but you can access some extra features on our site by <a href=\"%s\">logging in."
+msgstr "Ce n’est pas requis, mais vous pouvez accédez à d’autres fonctionnalités supplémentaires sur notre site <a href=\"%s\">en vous connectant."
+
+#: templates/html-inlined/new-comment-email.php:57
+msgid "To reply to %1$s <a href=\"%2$s\">visit this conversation on the web.</a>"
+msgstr "Pour répondre à %1$s <a href=\"%2$s\">rendez-vous sur la conversation.</a>"
+
+#: templates/html-inlined/html-local-email-wrapper.php:220
+msgid "To immediately stop receiving all posts and comments from %s you can <a href=\"%s\">unsubscribe with a single click."
+msgstr "Pour ne plus recevoir d’articles et de commentaire de %s vous pouvez <a href=\"%s\">vous désabonner en un clic."
+
+#: templates/html-inlined/comment-reply-email.php:84
+msgid "There were <a href=\"%1$s\">%2$d comments previous to this. Here is this reply in context:"
+msgstr "Il y avait <a href=\"%1$s\">%2$d commentaires avant celui-ci. Voici cette réponse dans son contexte :"
+
+#: templates/html-inlined/comment-rejected-email.php:15
+msgid "Your reply to <em>%s cannot be published because the post cannot be found or the discussion has been closed."
+msgstr "Votre réponse à <em>%s ne peut être publié parce que l’article est introuvable ou la discussion a été fermée."
+
+#. translators: %1$s is email, %2$s list URL, %3$s list label
+#: templates/html/unsubscribe-view.php:35
+msgid "No problem. %1$s has been unsubscribed from <a href=\"%2$s\">%3$s</a>."
+msgstr "Aucun problème. %1$s a été désabonné de <a href=\"%2$s\">%3$s</a>."
+
+#: templates/html/unsubscribe-view.php:25
+msgid "Got it. %s has been unsubscribed from all future mailings."
+msgstr "Compris. %s a été désabonné de toutes les futures communications."
+
+#: templates/html/unsubscribe-view.php:15
+msgid "We tried to unsubscribe you but something went wrong. Try getting in touch with the site adminstrator."
+msgstr "Nous avons essayé de vous désinscrire mais une erreur est survenue. Essayez d’entrer en contact avec l’administrateur du site."
+
+#: templates/html/subscription-agreement-email.php:38
+msgid "To confirm your subscription, <a href=\"%s\"><strong>click here</strong></a>."
+msgstr "Pour confirmer votre abonnement, <a href=\"%s\"><strong>cliquez ici</strong></a>."
+
+#. translators: %1$s list URL, %2$s list label
+#: templates/html/opt-in-view.php:23
+msgid "Done! You're subscribed to <a href=\"%1$s\">%2$s</a>."
+msgstr "Fait ! Votre abonnement à <a href=\"%1$s\">%2$s</a> est activé."
+
+#: templates/html/opt-in-view.php:12
+msgid "We tried to subscribe you, but somethign went wrong. Try again?"
+msgstr "Nous avons tenté de vous abonner mais une erreur est survenue. On réessaie ?"
+
+#: templates/html/new-comment-email.php:56
+msgid "To reply to %1$s <a href=\"%2$s\">visit this conversation on the web</a>."
+msgstr "Pour répondre à %1$s <a href=\"%2$s\">rendez-vous sur la conversation</a>."
+
+#: templates/html/core-options-promo.php:139
+msgid "Need anything? <a href=\"%s\">Get in touch with support. You'll be first in line.</a>"
+msgstr "Besoin de quelque chose ? <a href=\"%s\">Contactez le support. Nous vous répondrons en priorité.</a>"
+
+#: templates/html/core-options-promo.php:133
+msgid "Your contribution to Replyable will keep the features rolling and make WordPress better for everyone. Cheers to you!"
+msgstr "Votre contribution à Replyable nous permettra de continuer son développement et rendre WordPress plus intéressant. Un grand merci !"
+
+#: templates/html/core-options-promo.php:132
+msgid "Thanks for supporting Replyable!"
+msgstr "Merci de soutenir Replyable !"
+
+#: templates/html/core-options-promo.php:125
+msgid "Stuck? <a href=\"%s\">Get in touch with support.</a>"
+msgstr "Un blocage ? <a href=\"%s\">Entrez en contact avec le support.</a>"
+
+#: templates/html/core-options-promo.php:119
+msgid "Thanks for upgrading Replyable. We notice you have started premium service but service hasn't been started just yet. <strong>Please reload this page to try to move things along.</strong>"
+msgstr "Merci d’avoir mis Replyable à niveau. Nous remarquons que vous avez souscrit au service premium mais ce dernier n’est pas encore opérationnel. <strong>Veuillez rafraîchir cette page pour qu’on y remédie.</strong>"
+
+#: templates/html/core-options-promo.php:118
+msgid "We're cooking up your service"
+msgstr "Nous faisons mijoter votre service"
+
+#: templates/html/core-options-promo.php:105
+msgid "We hope you are enjoying your trial of Replyable. Be sure to try out the great features such as replying directly to comment notifications, author tools, and email-based moderation."
+msgstr "Nous espérons que vous appréciez votre période d’essai de Replyable. Veillez à bien essayer les fonctionnalités supplémentaires comme la réponse directe aux notifications de commentaires, les outils pour auteurs et la modération par e-mail."
+
+#: templates/html/core-options-promo.php:104
+msgid "Welcome back. How is your trial going?"
+msgstr "Content de vous revoir. Comment se passe votre période d’essai ?"
+
+#: templates/html/core-options-promo.php:41
+#: templates/html/core-options-promo.php:94
+msgid "Enable two-way comment notifications for just $2.99 a month. The first month is free."
+msgstr "Activer les notifications de commentaires en double-sens pour juste 2,99$ par mois. Le premier mois est gratuit."
+
+#: templates/html/core-options-promo.php:37
+#: templates/html/core-options-promo.php:90
+msgid "Have better conversations, improve SEO, and support a fantastic WordPress startup at the same time."
+msgstr "Ayez de meilleures conversations, améliorez votre référencement naturel et soutenez une startup WordPress fantastique au passage."
+
+#: templates/html/core-options-promo.php:32
+#: templates/html/core-options-promo.php:85
+msgid "Have you ever received a comment notification and just wanted to hit reply? No forms, no browser, just email?"
+msgstr "Avez-vous déjà reçu une notification de commentaire avec l’envie d’y répondre directement ? Sans formulaire ? Sans navigateur ? Directement depuis l’e-mail ?"
+
+#: templates/html/core-options-promo.php:79
+msgid "Find out more about the differences between Postmatic Basic and Replyable."
+msgstr "Découvrez les différences entre Postmatic Basic et Replyable."
+
+#: templates/html/core-options-promo.php:73
+msgid "With Replyable you can get all of the awesome commenting features of the full version of Postmatic, but for 15% the cost. Plans start at $2.99/month. Or, stick with the free service and still get awesome comment subscriptions, but without the bells and whistles."
+msgstr "Avec Replyable vous conservez toutes les fonctionnalités de commentaires de la version complète de Postmatic, mais pour 15% du prix. Les formules commencent à 2,99$ par mois. Ou conservez le service gratuit et continuez avec les abonnements aux commentaires, mais sans les fonctionnalités magiques."
+
+#: templates/html/core-options-promo.php:72
+msgid "Postmatic Basic is now Replyable. We've added some features and removed a few as well."
+msgstr "Postmatic Basic est dorénavant Replyable. Nous avons ajouté et retiré quelques fonctionnalités."
+
+#: templates/html/core-options-promo.php:71
+msgid "Important: It looks like this site previously used Postmatic Basic"
+msgstr "Important : Il semblerait que votre site utilisait précédemment Postmatic Basic."
+
+#: templates/html/core-options-promo.php:31
+#: templates/html/core-options-promo.php:70
+#: templates/html/core-options-promo.php:84
+msgid "Email was never meant to be a one-way street."
+msgstr "L’e-mail n’a jamais été conçu comme une rue à sens unique."
+
+#: templates/html/core-options-promo.php:57
+msgid "You might want to cancel your Postmatic account and switch to a paid Replyable account instead. Replyable service starts at just $2.99 a month."
+msgstr "Vous devriez probablement annuler votre compte Postmatic et passer à un compte payant Replyable à la place. Le service Replyable commence à 2,99$ par mois seulement."
+
+#: templates/html/core-options-promo.php:52
+msgid "It looks like you used to use Postmatic on this site and that you are still paying for Postmatic service. That's no good."
+msgstr "Il semblerait que vous utilisiez Postmatic sur ce site et que vous payez encore le service Postmatic. Ce n’est pas cool."
+
+#: templates/html/core-options-promo.php:24
+#: templates/html/core-options-promo.php:63
+#: templates/html/core-options-promo.php:111
+msgid "Need something? <a href=\"%s\">Get in touch with support.</a>"
+msgstr "Besoin d’aide ? <a href=\"%s\">Entrez en contact avec le support.</a>"
+
+#: templates/html/core-options-promo.php:18
+msgid "It looks like you have upgraded Replyable but have not yet verified your email address. This step is required to begin service. Please check your inbox for an activation email in order to continue."
+msgstr "Il semblerait que vous ayez mis à niveau Replyable mais sans vérifier votre adresse e-mail. Cette étape est obligatoire pour commencer le service. Veuillez trouver l’e-mail d’activation dans votre boite de réception afin de continuer."
+
+#: templates/html/core-options-promo.php:17
+#: templates/html/core-options-promo.php:51
+msgid "Hey! An important message about your account!"
+msgstr "Hey ! Un message important à propos de votre compte !"
+
+#: templates/html-inlined/comment-reply-email.php:53
+#: templates/html/comment-reply-email.php:53
+msgid "Reply to this email to respond to %s."
+msgstr "Répondez à cet e-mail pour répondre à %s."
+
+#: core/routing.php:99
+msgid "Opt In"
+msgstr "Accord"
+
+#: core/options.php:28
+msgid "We'll send you the latest comments as they come in."
+msgstr "Nous vous enverrons les derniers commentaires lorsqu’ils arriveront."
+
+#: core/options.php:27
+msgid "Thanks for joining the conversation!"
+msgstr "Merci d’avoir rejoint la conversation !"
+
+#: core/mailers/wp-mailer.php:101
+msgid "Replyable is having trouble sending email through your webhost. Consider upgrading to a paid Replyable account and we can send email for you."
+msgstr "Replyable rencontre des erreurs en routant les e-mails au travers de votre hébergeur. Veuillez envisager de mettre à niveau votre compte Replyable afin que nous nous occupions du routage pour vous."
+
+#: core/freemius.php:202
+msgid "Great, your trial has started!"
+msgstr "Parfait, votre période d’essai vient de commencer !"
+
+#: core/freemius.php:148
+msgid "Replyable lets you send beautiful, smart email notifications to your commenters. But email shouldn't be just one-way. Replyable let's you, your authors, and commenters hit reply to send a followup comment and keep the conversation going.<br />Enabling two-way email requires that our server connects to yours. Two-way plans start at $2.99 and come with a no-risk 30 day trial.<br /><strong>How would you like to use Replyable?</strong>"
+msgstr "Replyable vous permet d’envoyer de belles notifications intelligentes à vos commentateurs. Mais l’e-mail ne devrait pas être à sens unique. Replyable vous laisse, vous, vos auteurs et vos visiteurs, continuer la conversation en répondant aux notifications par e-mail.<br />Activer l’e-mail en double sens requiert que notre serveur communique avec le vôtre. Cette formule commence à 2,99$ par mois et vous pouvez l’essayer avec une période d’essai de 30 jours.<br /> <strong>Comment préféreriez-vous utiliser Replyable ?</strong>"
+
+#: core/freemius.php:93
+msgid "One-way notifications"
+msgstr "Notifications à sens unique"
+
+#: core/freemius.php:92
+msgid "Two-way conversations"
+msgstr "Notifications à double sens"
+
+#: core/email-batches/email-batch.php:485
+msgid "Delivered by Replyable."
+msgstr "Délivré par Replyable."
+
+#: core/email-batches/email-batch.php:466
+msgid "Delivered by <a href=\"%s\">Replyable</a> - Two-way email commenting for WordPress."
+msgstr "Delivré par <a href=\"%s\">Replyable</a> - Les commentaires à double sens pour WordPress."
+
+#: core/email-batches/comment-email-batch.php:287
+msgid "Upgrade Replyable to gain access to invaluable author tools, two-way email commenting (you could reply to this email to leave a followup comment!), and features for more engagement, more comments, and a happier community."
+msgstr "Mettez Replyable à niveau pour obtenir nos outils pour auteurs, les notifications e-mail à double sens (vous pourriez répondre à cet e-mail pour répondre à un commentaire !) et des fonctionnalités pour plus d’engagement, plus de commentaires et une communauté plus satisfaite."
+
+#: core/email-batches/comment-email-batch.php:276
+msgid "Hey %s - Authors who engage their readers through commenting are more likely to have better search engine placement, more traffic, and healthier blogs."
+msgstr "Hey %s - Les auteurs qui entrent en conversation avec leurs lecteurs grâce aux commentaires ont plus de chance d’améliorer le référencement naturel, d’avoir plus de trafic et des blogs en meilleure santé."
+
+#: admin/subscribe-reloaded-import-options-tab.php:14
+msgid "Importer"
+msgstr "Importer"
+
+#: admin/recommended-plugins-options-tab.php:18
+msgid "Recommended Plugins"
+msgstr "Extensions recommandées"
+
+#: admin/options-tab.php:176
+msgid "<a href=\"%s\" class=\"%s\">Upgrade</a>"
+msgstr "<a href=\"%s\" class=\"%s\">Mise à niveau</a>"
+
+#: admin/options-page.php:79
+msgid "Replyable"
+msgstr "Replyable"
+
+#: admin/local-mail-notice.php:45
+msgid "Heads up! We detected that your hosting account is unable to send email. You'll have to contact them for help, or use the button below to upgrade Replyable. We'll send email for you from our servers."
+msgstr "Avertissement ! Nous avons détecté que votre hébergeur n’est pas en mesure d’envoyer d’e-maiuls. Vous pouvez soit le contacter pour obtenir de l’aide, soit mettre à niveau Replyable avec le bouton ci-dessous. Nous enverrons ensuite les e-mails depuis nos serveurs."
+
+#: admin/email-options-tab.php:120
+msgid "When someone sucessfully subscribes to a conversation we'll shoot back a confirmation note. Use this as a place to say thanks, or welcome them to come back and read some other posts."
+msgstr "Lorsque quelqu’un s’abonne à une conversation, nous enverrons un e-mail de confirmation. Utilisez cet espace pour les remercier, les inviter à revenir sur votre site ou à lire d’autres articles."
+
+#: admin/email-options-tab.php:100
+msgid "Customize your Replyable template"
+msgstr "Personnalisez votre modèle Replyable"
+
+#: admin/email-options-tab.php:70
+msgid "This is a test email. By Replyable."
+msgstr "Ceci est un e-mail de test. Par Replyable."
+
+#: admin/email-options-tab.php:65
+msgid "This is a test email sent by Replyable. It is solely for testing email delivery and is not replyable."
+msgstr "Ceci est un e-mail de test envoyé par Replyable. Il n’a pour but que de vérifier la délivrabilité, vous ne pouvez pas y répondre."
+
+#: admin/email-options-tab.php:27
+msgid "Configure Your Template"
+msgstr "Configurez votre modèle"
+
+#: admin/recommended-plugins-options-tab.php:132
+msgid "Looking to solve commenting? You're going to want these free plugins:"
+msgstr "Vous cherchez à améliorer les commentaires ? Voici quelques pistes avec des extensions gratuites :"
+
+#: admin/recommended-plugins-options-tab.php:123
+msgid "Install Elevated Comments"
+msgstr "Installez Elevated Comments"
+
+#: admin/recommended-plugins-options-tab.php:112
+msgid "<a href=\"http://elevated.gopostmatic.com\" target=\"_blank\">Elevated Comments</a> uses language analysis and machine learning to identify the most relevant and thoughtful comment on each of your posts. The comment is then automatically inserted near the top of the post as a simple sidebar pull quote."
+msgstr "<a href=\"http://elevated.gopostmatic.com\" target=\"_blank\">Elevated Comments</a> utilise l’analyse du langage et l’apprentissage machine pour identifier les commentaires les plus pertinents de chaque article. Le commentaire est ensuite automatiquement placé en haut de l’article dans une citation."
+
+#: admin/recommended-plugins-options-tab.php:109
+msgid "Comments can be the best part of a post. So why are they always buried?"
+msgstr "Les commentaires peuvent être la meilleure partie d’un article. Alors pourquoi les enterrer en bas de page ?"
+
+#: admin/recommended-plugins-options-tab.php:101
+msgid "Install Sift Ninja"
+msgstr "Installez Sift Ninja"
+
+#: admin/recommended-plugins-options-tab.php:77
+msgid "Filter profanity, bullying, harassment, and trolls with Sift Ninja"
+msgstr "Filtrez les injures, le harcèlement et les trolls avec Sift Ninja"
+
+#: admin/recommended-plugins-options-tab.php:55
+msgid "Get rid of the comment form with Postmatic Social Commenting"
+msgstr "Débarrassez-vous du formulaire de commentaire avec Postmatic Social Commenting"
+
+#: admin/recommended-plugins-options-tab.php:33
+msgid "Make comments fun & fast with Epoch"
+msgstr "Rendez les commentaires fun et rapides avec Epoch"
+
+#: admin/core-options-tab.php:33
+msgid "Get Started"
+msgstr "Commencer"
+
+#: admin/comment-options-tab.php:33
+msgid "Choose how comment subscriptions work"
+msgstr "Choisissez comment l’abonnement aux commentaires fonctionnera"
+
+#: admin/comment-options-tab.php:15
+msgid "Comment Subscription Options"
+msgstr "Options d’abonnement aux commentaires"
+
+#: admin/options-page.php:193
+msgid "Important information about upcoming changes to Postmatic Basic"
+msgstr "Information importante sur des changements à venir pour Postmatic Basic"
+
+#: admin/subscribe-reloaded-import-options-tab.php:94
+msgid "You can disable Subscribe to Comments Reloaded at this time.<br />"
+msgstr "Vous pouvez dorénavant désactiver Subscribe to Comments Reloaded.<br />"
+
+#: admin/core-options-tab.php:212
+msgid "Watch the Video"
+msgstr "Regarder la vidéo"
+
+#: core/comment-form-handling.php:173
+msgid "Get notified of new comments on this post. If discussion generates more than a few emails daily your subscription will be paused automatically."
+msgstr "Recevez les notifications de tous les commentaires sur cet article. Si la discussion génère trop d’e-mails par jour, votre abonnement sera automatiquement mis en pause."
+
+#: core/comment-form-handling.php:167
+msgid "Get only replies to your comment, the best of the rest, as well as a daily recap of all comments on this post. No more than a few emails daily, which you can reply to/unsubscribe from directly from your inbox."
+msgstr "Recevez les notifications de réponse à vos commentaires, les meilleurs échanges, ainsi qu’un résumé quotidien de tous les commentaires publiés sur cet article. Pas plus de quelques e-mails par jour, auxquels vous pouvez répondre ou vous désabonner directement depuis votre boite de réception."
+
+#: core/email-batches/subscription-agreement-email-batch.php:98
+msgid "Failed to add an agreement recipient with an invalid email address."
+msgstr "Impossible d’ajouter un destinataire avec une adresse e-mail non-valide."
+
+#: core/user.php:197
+msgid "author"
+msgstr "auteur"
+
+#: templates/html-inlined/subscription-agreement-email.php:54
+#: templates/html/subscription-agreement-email.php:52
+msgid "Please choose a subscription option:"
+msgstr "Veuillez choisir une option d’abonnement :"
+
+#: templates/html-inlined/subscription-agreement-email.php:24
+#: templates/html/subscription-agreement-email.php:24
+msgid "Action required: There's one more step to confirm your subscription."
+msgstr "Action requise : il reste une étape pour confirmer votre abonnement."
+
+#: templates/html-inlined/subscription-agreement-email.php:20
+#: templates/html/subscription-agreement-email.php:20
+msgid "Action required: There’s one more step to confirm your subscription to %s."
+msgstr "Action requise : il reste une étape pour confirmer votre abonnement à %s."
+
+#: templates/text/subscription-agreement-email-text.php:46
+msgid "Please choose a subscription option"
+msgstr "Veuillez choisir une option d’abonnement"
+
+#: templates/text/subscription-agreement-email-text.php:38
+msgid "Thanks for subscribing to %s. There is one more step to verify your subscription."
+msgstr "Merci de votre abonnement à %s. Il reste une étape pour vérifier votre abonnement."
+
+#. translators: %s is site name
+#: templates/text/subscription-agreement-email-text.php:15
+msgid "%s Subscription Confirmation"
+msgstr "Confirmation d’abonnement à %s"
+
+#: templates/text/subscribed-email-text.php:21
+msgid "Keep an eye on your inbox for %s."
+msgstr "Gardez un œil sur votre boite de réception pour %s."
+
+#: templates/html-inlined/comment-flood-email.php:43
+#: templates/html/comment-flood-email.php:43
+msgid "Just press send"
+msgstr "Appuyez juste sur « envoyer »"
+
+#: core/user.php:406
+msgid "Existing User"
+msgstr "Utilisateur existant"
+
+#: core/user.php:183
+msgid "To get new posts by %s as soon as they are published, reply with the phrase '%s'."
+msgstr "Pour recevoir les nouveaux articles de %s dès qu’ils sont publiés, répondez avec la phrase « %s »."
+
+#: core/subscription-mailing.php:377
+msgid "To unsubscribe at any time reply with the word '%s'."
+msgstr "Pour vous désabonner à tout moment, répondez avec le mot « %s »."
+
+#: core/site-comments.php:114
+msgid "sitewide comments"
+msgstr "commentaires dans tout le site"
+
+#: core/site-comments.php:87
+msgid "To get all new comments sitewide on %1$s, reply with the word '%2$s'."
+msgstr "Pour recevoir tous les nouveaux commentaires de l’intégralité du site au sujet %1$s, répondez avec le mot « %2$s »."
+
+#: core/post.php:206
+msgid "post"
+msgstr "article"
+
+#: core/post.php:191
+msgid "To get all new comments on %1%s, reply with the word '%2$s'</a>."
+msgstr "Pour recevoir tous les nouveaux commentaires sur %1%s, répondez avec le mot « %2$s »</a>."
+
+#: core/site-comments.php:81 core/user.php:179 core/post.php:185
+msgid "Just hit send"
+msgstr "Appuyez juste sur « envoyer »"
+
+#: core/options.php:66
+msgid "Join the conversation via an occasional email"
+msgstr "Rejoignez la conversation via un e-mail occasionnel"
+
+#. translators: this is the word used to re-subscribe to comments after flood
+#. control has kicked in
+#: core/matchers/rejoin-matcher.php:13
+msgid "rejoin"
+msgstr "rejoindre"
+
+#. translators: this is the word used to switch to or select a new post
+#. subscription via email reply
+#: core/matchers/instant-matcher.php:17
+msgid "instant"
+msgstr "instant"
+
+#: core/mailers/mailer.php:67 core/mailers/wp-mailer.php:49
+msgid "Duplicate retry skipped."
+msgstr "Nouvelle tenative en doublon ignorée."
+
+#: core/mailers/comment-mailer.php:88
+msgid "Got an unrecognized outbound message batch response."
+msgstr "Réception d’une réponse automatique non reconnue."
+
+#: core/email-comment-rendering.php:56 core/email-comment-rendering.php:110
+msgid "Reply"
+msgstr "Répondre"
+
+#: core/email-comment-rendering.php:108 core/email-comment-rendering.php:140
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#: core/email-batches/subscription-agreement-email-batch.php:241
+msgid "You received this email because you requested a subscription from %s at %s."
+msgstr "Vous recevez cet e-mail parce que vous avez demandé à vous abonner à %s de %s."
+
+#: core/email-batches/subscription-agreement-email-batch.php:233
+msgid "This invitation was sent to you on behalf of %s at %s."
+msgstr "Cette invition vous a été envoyée de la part de %s de %s."
+
+#: core/email-batches/subscription-agreement-email-batch.php:213
+msgid "You received this email because you requested a subscription from <a href=\"%s\">%s</a>."
+msgstr "Vous recevez cet e-mail parce que vous avez demandé à vous abonner à <a href=\"%s\">%s</a>."
+
+#: core/email-batches/subscription-agreement-email-batch.php:205
+msgid "This is invitation was sent to you from <a href=\"%s\">%s</a>. If you are not interested in subscribing you can safely ignore it. We will not email you again."
+msgstr "Cette invition vous a été envoyée depuis <a href=\"%s\">%s</a>. Si vous n’avez pas demandé d’abonnement, vous pouvez l’ignorer. Nous ne vous recontacterons plus."
+
+#: core/email-batches/subscription-agreement-email-batch.php:48
+msgid "{{name_prefix}}Important: Please select your subscription"
+msgstr "{{name_prefix}}Important : Veuillez choisir votre abonnement"
+
+#: core/email-batches/subscription-agreement-email-batch.php:44
+msgid "{{name_prefix}}Important: Please confirm your subscription to %s"
+msgstr "{{name_prefix}}Important : Veuillez confirmer votre abonnement à %s"
+
+#: core/subscription-mailing.php:374 core/email-batches/email-batch.php:500
+msgid "Press send to confirm"
+msgstr "Cliquez sur « envoyer » pour confirmer"
+
+#. translators: %s is a subscription list title
+#: core/comment-flood-controller.php:131 core/subscription-mailing.php:279
+#: core/email-batches/comment-email-batch.php:129
+msgid "You received this email because you're subscribed to %s."
+msgstr "Vous avez reçu cet e-mail suite à votre abonnement à %s."
+
+#: core/commands/register-subscribe-command.php:199
+msgid "Failed to save new subscriber data."
+msgstr "Échec de sauvegarde des données d’un nouvel abonné."
+
+#: core/commands/confirmation-command.php:70
+msgid "Failed to unsubscribe from an unknown list."
+msgstr "Échec d’abonnement à une liste inconnue."
+
+#: admin/options-page.php:329
+msgid "<strong>There's a problem :(</strong> Replyable was unable to connect to your server. If you or your web host have put restrictions on incoming web connections an exception may be needed to let our server (app.gopostmatic.com) talk to yours. Click the question mark icon in the lower right corner for more assistance or try contacting your web host."
+msgstr "<strong>Il y a un problème :(</strong> Replyable n’a pas réussi à se connecter à votre serveur. Si vous ou votre hébergeur avez mis des restrictions, une exception est nécessaire pour que notre serveur (app.gopostmatic.com) communique avec le vôtre. Cliquez sur le point d’interrogation en bas à droite pour obtenir plus d’assistance ou essayez de contacter votre hébergeur."
+
+#: admin/options-page.php:325
+msgid "<strong>Just a moment</strong>. Replyable is running a test to make sure our server can talk to yours. It may take a few seconds."
+msgstr "<strong>Une minute</strong>. Replyable lance un test pour s’assurer que nos serveurs communiquent avec les vôtres. Cela peut prendre quelques secondes."
+
+#: admin/options-page.php:293
+msgid "We are unable to reach the Postmatic server at app.gopostmatic.com. If this happens consistently, your web host may be blocking the connection, and you'll have to ask for an exception before Postmatic will work."
+msgstr "Nous sommes dans l’incapacité de communiquer avec le serveur Postmatic à app.gopostmatic.com. Si cela arrive régulièrement, votre hébergeur bloque peut-être la connexion et vous devrez demander une exception."
+
+#: admin/upgrade-options-tab.php:15 admin/options-page.php:193
+#: templates/html/core-options-promo.php:47
+#: templates/html/core-options-promo.php:100
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+#: admin/notice-handling.php:113
+msgid "Postmatic Service Notice"
+msgstr "Note de service Postmatic"
+
+#: admin/notice-handling.php:107
+msgid "Changes are reflected in <a href=\"%s\">your settings</a>."
+msgstr "Les changements sont reflétés dans <a href=\"%s\">vos réglages</a>."
+
+#: admin/email-options-tab.php:243
+msgid "This text will show next to your site icon in simpler transactional emails such as comment notifications."
+msgstr "Ce texte s’affichera à côté de l’icône de votre site dans les e-mails transactionnels tels que les notifications de commentaires."
+
+#: admin/email-options-tab.php:205
+msgid "Want the Replyable template to use your typography and colors? Do so with a single click. We'll analyze the active theme and make your email template follow suit."
+msgstr "Vous souhaitez que les modèles de Replyable se servent de votre police et de vos couleurs ? Faites-le en un clic. Nous analyserons votre thème actif et construirons le modèle en conséquence."
+
+#: admin/email-options-tab.php:202
+msgid "Color palette detection"
+msgstr "Détection de la palette de couleurs"
+
+#: admin/email-options-tab.php:195
+msgid "Use defaults"
+msgstr "Utiliser les réglages par défaut"
+
+#: admin/email-options-tab.php:102
+msgid "Since we'll be sending via email the focus should be on <em>the comments</em>. That's why we keep things simple. Configure your colors, header and footer. Replyable will handle what goes in between."
+msgstr "Puisque cela finira dans un e-mail, le focus se fera sur <em>les commentaires</em>. C’est pourquoi il faut garder les choses simples. Configurez vos couleurs, en-tête et pied de page. Replyable gérera tout le reste."
+
+#: admin/email-options-tab.php:47
+msgid "Colors set to defaults."
+msgstr "Couleurs réglées par défaut."
+
+#: admin/email-options-tab.php:37
+msgid "Colors updated."
+msgstr "Couleurs mises à jour."
+
+#: admin/options-tab.php:269
+msgid "Labs Feature"
+msgstr "Fonctionnalité Labs"
+
+#: admin/options-tab.php:202
+msgid "Install"
+msgstr "Installer"
+
+#: admin/options-tab.php:190
+msgid "Labs"
+msgstr "Labs"
+
+#: admin/recommended-plugins-options-tab.php:69
+msgid "Install Social Commenting"
+msgstr "Installer Social Commenting"
+
+#: admin/recommended-plugins-options-tab.php:58
+msgid "Install Postmatic Social Commenting, a tiny, fast, and convenient way to let your readers comment using their social profiles."
+msgstr "Installez Postmatic Social Commenting, une façon rapide et pratique pour vos internautes de commenter grâce à leurs profils de réseaux sociaux."
+
+#: admin/recommended-plugins-options-tab.php:47
+msgid "Install Epoch"
+msgstr "Installer Epoch"
+
+#: admin/recommended-plugins-options-tab.php:36
+msgid "<a href=\"http://gopostmatic.com/epoch\" target=\"_blank\">Epoch</a> is a free, private, and native alternative to Disqus. Your users will love it and your site speed score will as well."
+msgstr "<a href=\"http://gopostmatic.com/epoch\" target=\"_blank\">Epoch</a> est une alternative gratuite et privée à Disqus. Vos internautes adoreront et votre score de vitesse également."
+
+#: admin/comment-options-tab.php:153
+msgid "We'll analyze each comment, identify those worth sending, and hold on to the rest for the daily comment digest. This keeps short comments, nonsense, and any potential spam from bothering subscribers. Direct replies will still be sent to the person being responded to so the conversation keeps growing."
+msgstr "Nous analyserons chaque commentaire, identifierons ceux qui valent la peine d’être envoyés et garderons les autres pour le résumé quotidien. Cela empêche les commentaires courts, sans intérêt ou l’éventuel spam de gêner vos abonnés. Les réponses directes seront tout de même envoyées à vos commentateurs pour que la conversation continue."
+
+#: admin/comment-options-tab.php:150
+msgid "Only email comments which contain a high level of relevance to the post and conversation."
+msgstr "N’envoyer par e-mail que les commentaires qui sont très pertinents et les conversations."
+
+#: admin/comment-options-tab.php:147
+msgid "Comment Intelligence"
+msgstr "Analyse des commentaires"
+
+#: admin/email-options-tab.php:119
+msgid "Custom welcome message"
+msgstr "Message de bienvenue personnalisé"
+
+#. Author URI of the plugin
+msgid "http://gopostmatic.com/"
+msgstr "http://gopostmatic.com/"
+
+#: templates/html-inlined/unsubscribed-email.php:18
+#: templates/text/unsubscribed-email-text.php:20
+#: templates/html/unsubscribed-email.php:18
+msgid "To re-subscribe visit:"
+msgstr "Pour se ré-inscrire aller à :"
+
+#: templates/html-inlined/unsubscribed-email.php:13
+#: templates/text/unsubscribed-email-text.php:13
+#: templates/html/unsubscribed-email.php:13
+msgid "You'll no longer receive email notices for %s."
+msgstr "Vous ne recevrez plus de notifications par e-mail pour %s."
+
+#: templates/html-inlined/unsubscribed-email.php:9
+#: templates/text/unsubscribed-email-text.php:8
+#: templates/html/unsubscribed-email.php:9
+msgid "You have unsubscribed"
+msgstr "Vous avez mis fin à votre abonnement"
+
+#: templates/text/text-email-wrapper.php:24
+msgid "To stop receiving email from %s visit:"
+msgstr "Pour arrêter de recevoir des e-mails de %s, visitez :"
+
+#: templates/html-inlined/subscription-agreement-email.php:78
+#: templates/text/subscription-agreement-email-text.php:59
+#: templates/html/subscription-agreement-email.php:76
+msgid "If you did not initiate this subscription please ignore this email or forward it to %s."
+msgstr "Si vous n’êtes pas à l’origine de cet abonnement, ignorez cet e-mail ou transférez le à %s."
+
+#: core/email-batches/subscription-agreement-email-batch.php:178
+msgid "You recently signed up for updates from %s. We sent you an email asking for verification but you did not reply correctly. Please read the following:"
+msgstr "Vous vous êtes inscrit récemment aux mises à jour de %s. Nous vous avons envoyé un e-mail de demande de vérification, mais vous n’y avez pas répondu correctement. Veuillez prendre note de ce qui suit :"
+
+#: core/email-batches/subscription-agreement-email-batch.php:175
+msgid "Important Notice"
+msgstr "Avertissement important"
+
+#. translators: %s is site name
+#: templates/html-inlined/subscription-agreement-email.php:12
+#: templates/text/subscription-agreement-email-text.php:9
+#: templates/html/subscription-agreement-email.php:12
+msgid "An invitation from %s"
+msgstr "Une invitation de %s"
+
+#: templates/html-inlined/subscribed-email.php:25
+#: templates/html/subscribed-email.php:25
+msgid "Want to catch up? Here are the 30 most recent comments:"
+msgstr "Vous voulez rattraper la conversation ? Voici les 30 commentaires les plus récents :"
+
+#: templates/html-inlined/subscribed-email.php:18
+#: templates/html/subscribed-email.php:18
+msgid "Here is what others have to say. Reply to add your thoughts."
+msgstr "Voici ce que les autres ont à dire. Répondez pour ajouter vos commentaires."
+
+#: templates/text/subscribed-email-text.php:56
+msgid "Please note: Your reply will be published on %s."
+msgstr "Note : votre réponse sera publiée sur %s."
+
+#: templates/text/subscribed-email-text.php:52
+msgid "* To leave a comment simply reply to this email. *"
+msgstr "* Pour ajouter un commentaire, répondez à cet e-mail. *"
+
+#: templates/text/subscribed-email-text.php:39
+msgid "Here is the discussion so far"
+msgstr "Voici la discussion jusqu’à maintenant"
+
+#: templates/text/subscribed-email-text.php:32
+msgid "The conversation so far is included below."
+msgstr "La discussion jusqu’à maintenant est incluse ci-dessous."
+
+#: templates/text/subscribed-email-text.php:16
+msgid "What's next?"
+msgstr "Et après ?"
+
+#: templates/html/rejoined-email.php:52
+msgid "To unsubscribe at any time reply with the word <strong>unsubscribe</strong>."
+msgstr "Pour vous désabonner à tout moment, répondez avec le mot <strong>désabonnement<strong>."
+
+#: templates/html/rejoined-email.php:37
+msgid "<strong>Please note</strong>: Your reply will be published publicly and immediately on %s."
+msgstr "<strong>Note</strong> : Votre réponse sera publiquement et immédiatement publiée sur %s."
+
+#: templates/html-inlined/rejoined-email.php:13
+#: templates/html/rejoined-email.php:13
+msgid "Here's a recap of the conversation."
+msgstr "Voici un récapitulatif de la discussion."
+
+#: core/subscription-mailing.php:298
+msgid "Welcome back, <span class=\"capitalize\">%s</span>."
+msgstr "Re-bienvenue, <span class=\"capitalize\">%s</span>."
+
+#: templates/text/rejoined-email-text.php:52
+msgid "To unsubscribe at any time visit %s"
+msgstr "Pour se désabonner à tout moment rendez-vous sur %s"
+
+#: templates/text/rejoined-email-text.php:35
+msgid "To leave a comment simply reply to this email."
+msgstr "Pour ajouter un commentaire, répondez simplement à cet e-mail."
+
+#: templates/html-inlined/subscribed-email.php:37
+#: templates/html-inlined/rejoined-email.php:25
+#: templates/text/rejoined-email-text.php:30
+#: templates/html/subscribed-email.php:37 templates/html/rejoined-email.php:25
+msgid "View this conversation online"
+msgstr "Afficher cette discussion en ligne"
+
+#: templates/text/rejoined-email-text.php:16
+msgid "Here's a recap of the conversation. You'll see a marker below showing you what's new. Reply to add your thoughts."
+msgstr "Voici un récapitulatif de la discussion. Un marqueur vous montre ce qui est nouveau. Répondez pour ajouter vos remarques."
+
+#: templates/html-inlined/new-user-email.php:28
+#: templates/html/new-user-email.php:28
+msgid "You may log in by visiting %s."
+msgstr "Vous pouvez vous connecter en allant à %s."
+
+#: templates/html-inlined/new-user-email.php:24
+#: templates/html/new-user-email.php:24
+msgid "Password"
+msgstr "Mot de passe"
+
+#: templates/html-inlined/new-user-email.php:23
+#: templates/html/new-user-email.php:23
+msgid "Username"
+msgstr "Identifiant"
+
+#: templates/html-inlined/new-user-email.php:21
+#: templates/html/new-user-email.php:21
+msgid "Your Account Information:"
+msgstr "Vos informations de compte :"
+
+#: templates/html/new-user-email.php:13
+msgid "It's not required, but you can access some extra features on our site by <a href=\"%s\">logging in</a>."
+msgstr "Ce n'est pas obligatoire, mais vous pouvez accéder à quelques fonctionnalités supplémentaires sur notre site en <a href=\"%s\">vous connectant</a>."
+
+#: templates/html-inlined/new-user-email.php:9
+#: templates/html/new-user-email.php:9
+msgid "Welcome to %s."
+msgstr "Bienvenue sur %s."
+
+#: templates/html-inlined/subscribed-email.php:49
+#: templates/html/subscribed-email.php:50
+msgid "You're invited to comment on this post by replying to this email. If you do, it may be published immediately or held for moderation, depending on the comment policy of %s."
+msgstr "Vous êtes invité(e) à laisser un commentaire sur cet article en répondant à cet e-mail. Si vous le faites, il pourra être publié immédiatement ou mis en attente de modération, en fonction des réglages des commentaires sur %s."
+
+#: templates/html-inlined/subscribed-email.php:44
+#: templates/html-inlined/rejoined-email.php:32
+#: templates/html/subscribed-email.php:45 templates/html/rejoined-email.php:32
+msgid "Reply to this email to add a comment. Your email address will not be shown."
+msgstr "Répondez à cet e-mail pour ajouter un commentaire. Votre adresse e-mail ne sera pas visible."
+
+#: templates/html-inlined/new-comment-email.php:113
+#: templates/html/new-comment-email.php:112
+msgid "<br /><strong>Please note</strong>: Your reply will be published on %s."
+msgstr "<br /><strong>Note</strong> : votre réponse sera publiée sur %s."
+
+#: templates/html-inlined/new-comment-email.php:26
+#: templates/html/new-comment-email.php:26
+msgid "%1$s added a comment in reply to %2$s."
+msgstr "%1$s a ajouté un commentaire en réponse à %2$s."
+
+#: templates/text/new-comment-email-text.php:67
+#: templates/text/rejoined-email-text.php:41
+msgid "Please note: Your reply will be published publicly and immediately on %s."
+msgstr "Note : Votre réponse sera publiquement et immédiatement publiée sur %s."
+
+#: templates/html-inlined/new-comment-email.php:91
+#: templates/text/new-comment-email-text.php:45
+#: templates/html/new-comment-email.php:90
+msgid "Recently in this conversation..."
+msgstr "Récemment dans cette discussion&hellip;"
+
+#: templates/html-inlined/new-comment-email.php:76
+#: templates/text/new-comment-email-text.php:36
+#: templates/html/new-comment-email.php:75
+msgid "You're invited to respond by replying to this email. If you do, it may be published immediately or held for moderation, depending on the comment policy of %s."
+msgstr "Vous êtes invité(e) à répondre en répondant à cet e-mail. Si vous le faites, votre commentaiore pourra être publié immédiatement ou mis en attente de modération, en fonction des réglages des commentaires sur %s."
+
+#: templates/text/new-comment-email-text.php:18
+msgid "%s added a comment on %s"
+msgstr "%s a ajouté un commentaire sur %s"
+
+#: templates/html/html-local-email-wrapper.php:1616
+msgid "To immediately stop receiving all posts and comments from %s you can <a href=\"%s\">unsubscribe with a single click</a>."
+msgstr "Pour ne plus recevoir les articles et les commentaires de %s, vous pouvez <a href=\"%s\">vous désabonner d’un simple clic</a>."
+
+#: core/email-batches/email-batch.php:461
+#: core/email-batches/email-batch.php:481
+msgid "Sent from %s."
+msgstr "Envoyé depuis %s."
+
+#: admin/core-options-tab.php:74
+msgid "Manage your account"
+msgstr "Gérez votre compte"
+
+#: templates/html/comment-reply-email.php:84
+msgid "There were <a href=\"%1$s\">%2$d comments</a> previous to this. Here is this reply in context:"
+msgstr "Il y avait <a href=\"%1$s\">%2$d commentaires</a> avant celui-ci. Voici la réponse dans son contexte :"
+
+#: templates/html-inlined/new-comment-email.php:71
+#: templates/html-inlined/new-comment-email.php:109
+#: templates/html-inlined/comment-reply-email.php:105
+#: templates/html/new-comment-email.php:70
+#: templates/html/new-comment-email.php:108
+#: templates/html/comment-reply-email.php:105
+msgid "Reply to this email to reply to %s."
+msgstr "Répondez à cet e-mail pour répondre à %s."
+
+#: templates/text/comment-reply-email-text.php:74
+#: templates/text/new-comment-email-text.php:79
+msgid "To no longer receive other comments or replies in this discussion reply with the word '%s'."
+msgstr "Pour ne plus recevoir de commentaires ou de réponses de cette discussion répondez avec le mot « %s »."
+
+#: templates/text/comment-reply-email-text.php:50
+msgid "There were %d comments previous to this. Here is this reply in context:"
+msgstr "Il y avait %d commentaires avant celui-ci. Voici la réponse dans son contexte :"
+
+#: templates/html-inlined/comment-reply-email.php:69
+#: templates/text/comment-reply-email-text.php:34
+#: templates/html/comment-reply-email.php:69
+msgid "%1$s was published on %2$s by %4$s."
+msgstr "%1$s a été publié sur %2$s par %4$s."
+
+#: templates/html-inlined/comment-reply-email.php:63
+#: templates/text/comment-reply-email-text.php:28
+#: templates/html/comment-reply-email.php:63
+msgid "Here's a recap of this post and conversation:"
+msgstr "Voici un récapitulatif de cet article et de la discussion :"
+
+#: templates/text/comment-reply-email-text.php:23
+#: templates/text/comment-reply-email-text.php:68
+#: templates/text/new-comment-email-text.php:31
+#: templates/text/new-comment-email-text.php:61
+msgid "* Reply to this email to reply to %s. *"
+msgstr "* Répondez à cet e-mail pour répondre à %s. *"
+
+#: core/email-batches/comment-email-batch.php:490
+msgid "%s left a reply to a comment by %s on %s:"
+msgstr "%s a envoyé une réponse à un commentaire par %s le %s :"
+
+#: core/email-batches/comment-email-batch.php:485
+msgid "%s replied to your comment on %s:"
+msgstr "%s a répondu à votre commentaire sur %s :"
+
+#: templates/html-inlined/comment-rejected-email.php:34
+#: templates/html/comment-rejected-email.php:34
+msgid "More Information"
+msgstr "Plus d’informations"
+
+#: templates/html-inlined/comment-rejected-email.php:28
+#: templates/html/comment-rejected-email.php:28
+msgid "Please visit %s for more information."
+msgstr "Rendez-vous sur %s pour plus d'informations."
+
+#: templates/html/comment-rejected-email.php:15
+msgid "Your reply to <em>%s</em> cannot be published because the post cannot be found or the discussion has been closed."
+msgstr "Votre réponse à <em>%s</em> n’est pas publiée parce que l’article est introuvable ou la discussion a été fermée."
+
+#: templates/html-inlined/comment-rejected-email.php:11
+#: templates/html/comment-rejected-email.php:11
+msgid "We're sorry."
+msgstr "Nous sommes désolés."
+
+#: templates/html-inlined/comment-reply-email.php:52
+#: templates/html/comment-reply-email.php:52
+msgid "In reply to %s"
+msgstr "En réponse à %s."
+
+#: templates/html-inlined/comment-flood-email.php:54
+#: templates/html/comment-flood-email.php:55
+msgid "Continue the conversation online"
+msgstr "Continuer cette discussion en ligne"
+
+#: templates/html-inlined/comment-flood-email.php:37
+#: templates/text/comment-flood-email-text.php:33
+#: templates/html/comment-flood-email.php:37
+msgid "You won't receive new comments on this post, unless you reply to this email with the word %1$s'%2$s'%3$s. We'll send you a recap and renew your subscription."
+msgstr "Vous ne recevrez plus de nouveaux commentaires sur cet article à moins de répondre à cet e-mail avec le mot %1$s« %2$s »%3$s. Nous vous enverrons un récapitulatif et renouvèlerons votre abonnement."
+
+#: templates/html-inlined/comment-flood-email.php:25
+#: templates/html/comment-flood-email.php:25
+msgid "You love email -- but maybe not this much. We're going to pause notifications for you to prevent a flood in your inbox."
+msgstr "Vous aimez les e-mails&hellip; mais peut-être pas à ce point. Nous allons mettre en pause les notifications pour vous, afin de ne pas inonder votre boite de réception."
+
+#: templates/text/comment-flood-email-text.php:46
+msgid "View this post online"
+msgstr "Regardez cet article en ligne"
+
+#: templates/text/comment-flood-email-text.php:21
+msgid "You love email. But maybe not this much. We're going to pause notifications for you to prevent a flood in your inbox. You will no longer receive new comments on this post."
+msgstr "Vous aimez les e-mails&hellip; mais peut-être pas à ce point. Nous allons mettre en pause les notifications pour ne pas inonder votre boite de réception. Vous ne recevrez plus de nouveaux commentaires pour cet aticle."
+
+#: templates/html-inlined/comment-flood-email.php:14
+#: templates/text/comment-flood-email-text.php:13
+#: templates/html/comment-flood-email.php:14
+msgid "Heads up: the conversation around %s is heating up."
+msgstr "Attention ! La discussion sur %s est en pleine effervescence."
+
+#: core/mailers/wp-mailer.php:201
+msgid "Attempted to send to an invalid email address."
+msgstr "Échec d’envoi à une adresse non valide."
+
+#: core/user.php:338
+msgid "Discussions you are subscribed to:"
+msgstr "Discussions auxquelles vous êtes abonné(e) :"
+
+#. translators: indicates that comments are closed on a post
+#: core/user.php:332
+msgid "(closed)"
+msgstr "(fermé)"
+
+#: core/user.php:310
+msgid "Authors you subscribe to:"
+msgstr "Auteurs auxquels vous êtes abonné(e) :"
+
+#: core/site-comments.php:103
+msgid "Please send me all new comments by email. Even ones on posts to which I have not subscribed."
+msgstr "M'envoyer tous les nouveaux commentaires par e-mail. Même ceux des articles auxquels je n'ai pas souscrit."
+
+#: core/user.php:288
+msgid "Site Subscriptions:"
+msgstr "Abonnements au site :"
+
+#: core/user.php:247
+msgid "People that subscribe to you:"
+msgstr "Vos abonnés :"
+
+#: core/user.php:160
+msgid "You have successfully subscribed and will receive posts by %s directly in your inbox."
+msgstr "Votre abonnement est confirmé, vous recevrez les articles de %s directement dans votre boite de réception."
+
+#: core/user.php:142
+msgid "posts by %s"
+msgstr "les articles de %s"
+
+#: core/user-mailing.php:26
+msgid "Welcome to %s"
+msgstr "Bienvenue sur %s"
+
+#: core/unsubscribe-template.php:44
+msgid "Got it. %s has been unsubscribed from new posts as well as any conversations."
+msgstr "C’est noté. %s est désabonné(e) des nouveaux articles comme des commentaires."
+
+#: core/unsubscribe-template.php:32
+msgid "We tried to unsubscribe you, but there was some required information missing from this request."
+msgstr "Nous avons essayé de vous désabonner, mais il manque des informations pour cette requête."
+
+#: core/subscription-mailing.php:293
+msgid "You've rejoined %s"
+msgstr "Vous avez rejoint %s"
+
+#: core/subscription-mailing.php:164
+msgid "You're subscribed to %s"
+msgstr "Vous êtes abonné(e) à %s"
+
+#: core/subscription-mailing.php:153
+msgid "You're unsubscribed from %s"
+msgstr "Vous êtes désabonné(e) de %s"
+
+#: core/subscription-mailing.php:144
+msgid "Tried to notify an invalid subscriber."
+msgstr "Tentative de notification d’un abonné non valide."
+
+#: core/subscriber-origin.php:18
+msgid "Unknown source."
+msgstr "Source inconnue."
+
+#: core/site-comments.php:62
+msgid "You have successfully subscribed to all comments on %s and will receive new comments as soon as they are published."
+msgstr "Vous êtes abonné(e) à tous les commentaires de %s et vous recevrez les nouveaux dès qu'ils seront publiés."
+
+#: core/site-comments.php:47
+msgid "all comments on %s"
+msgstr "tous les commentaires de %s"
+
+#: core/commands/register-subscribe-command.php:244
+msgid "Received no message with a subscription agreement."
+msgstr "Aucun validation d’abonnement reçue."
+
+#: core/commands/register-subscribe-command.php:224
+#: core/commands/register-subscribe-command.php:235
+msgid "Received invalid metadata with a subscription agreement."
+msgstr "Métadonnées invalides reçues avec une validation d'abonnement."
+
+#: core/commands/register-subscribe-command.php:132
+msgid "Failed to create a new user from an agreement reply email."
+msgstr "Impossible de créer un nouvel utilisateur à partir d’un e-mail de réponse."
+
+#. translators: this is the word used to opt in via email reply
+#: core/matchers/agree-matcher.php:17
+msgid "agree"
+msgstr "accepter"
+
+#: core/commands/register-subscribe-command.php:95
+msgid "Couldn't find the original registration information for a new user."
+msgstr "Impossible de trouver les informations d'enregistrement d'origine pour un nouvel utilisateur."
+
+#: core/post.php:166
+msgid "You have successfully subscribed and will receive an email when there is a new comment on <em>%s</em>."
+msgstr "Votre abonnement est confirmé, vous recevrez un e-mail quand il y aura un nouveau commentaire sur <em>%s</em>."
+
+#: core/post.php:150
+msgid "discussion of <em>%s</em>"
+msgstr "discussion de <em>%s</em>"
+
+#: core/option-subscribable-object.php:64
+msgid "Refusing to subscribe an invalid user ID."
+msgstr "Refus d'abonner un utilisateur avec un identifiant non-valide."
+
+#: core/meta-subscribable-object.php:34
+msgid "Refused an attempt to subscribe an invalid user ID."
+msgstr "Refus de tentative d'abonnement d'un utilisateur avec un identifiant non-valide."
+
+#: core/mailers/wp-mailer.php:274
+msgid "An email sending operation behaved erratically and may have failed."
+msgstr "Une opération d'envoi d'e-mails se comportait de façon erratique et a peut-être échoué."
+
+#: core/inbound-messenger.php:105
+msgid "Unable to deliver a message of unknown type."
+msgstr "Impossible de délivrer un message de type inconnu."
+
+#: core/inbound-messenger.php:84
+msgid "Failed to acknowledge receipt of messages - they may arrive again."
+msgstr "Échec d'accusé de réception de messages - ils peuvent arriver à nouveau."
+
+#: core/inbound-messenger.php:65
+msgid "Failed to acknowledge unrecognized updates response."
+msgstr "Impossible d'accepter une réponse de mise à jour non reconnue."
+
+#: core/inbound-messenger.php:36
+msgid "Inbound messages arrived in an unrecognized format."
+msgstr "Les messages entrants sont arrivés dans un format non reconnu."
+
+#: core/email-batches/email-batch.php:262
+msgid "This is a test email. By Postmatic."
+msgstr "Ceci est un message de test. Envoyé par Postmatic."
+
+#: core/options.php:55
+msgid "Welcome!"
+msgstr "Bienvenue !"
+
+#: core/options.php:22
+msgid "This is an invitation to subscribe to email updates from this website. We hope it is welcome, but we promise we won't contact you again unless you respond."
+msgstr "Ceci est une invitation à s'abonner aux mises à jour par e-mail de ce site. Nous espérons que vous l'accepterez, mais nous vous promettons aussi de ne plus vous recontacter si vous n'y répondez pas."
+
+#: core/options.php:20
+msgid "You're invited to subscribe to %s"
+msgstr "Vous êtes invité(e) à vous abonner à %s"
+
+#: core/commands/confirmation-command.php:108
+msgid "Invalid confirmation keys"
+msgstr "Clés de confirmation non valides"
+
+#: core/configurator.php:31
+msgid "Configuration data arrived in an unrecognized format."
+msgstr "Les données de configuration sont arrivés dans un format non reconnu."
+
+#: core/configurator.php:22
+msgid "A request for site configuration failed."
+msgstr "Une demande de configuration du site a échoué."
+
+#: core/comment-mailing.php:55
+msgid "Unable to publish your reply to \"%s\""
+msgstr "Impossible de publier votre réponse à « %s »"
+
+#: core/comment-mailing.php:41
+msgid "a deleted post"
+msgstr "un article supprimé"
+
+#: core/email-batches/comment-email-batch.php:436
+msgid "%s commented on %s"
+msgstr "%s a laissé un commentaire sur %s"
+
+#: core/email-batches/comment-email-batch.php:428
+msgid "%s replied to %s on %s"
+msgstr "%s a répondu à %s sur %s"
+
+#: core/email-batches/comment-email-batch.php:420
+msgid "%s replied to your comment on %s."
+msgstr "%s a répondu à votre commentaire sur %s."
+
+#: core/comment.php:216 core/email-batches/comment-email-batch.php:78
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: core/comment-form-handling.php:222 core/routing.php:137
+msgid "Unsubscribe"
+msgstr "Désabonnement"
+
+#: core/comment-form-handling.php:217
+msgid "You are subscribed to new comments on this post."
+msgstr "Vous êtes abonné(e) aux nouveaux commentaires de cet article."
+
+#: core/comment-flood-controller.php:136
+msgid "We're pausing comment notices for you."
+msgstr "Nous stoppons les envois de commentaires pour vous."
+
+#: core/commands/comment-command.php:251
+msgid "rejected duplicate comment on %s"
+msgstr "commentaire en double rejeté sur %s"
+
+#: core/commands/comment-command.php:242
+msgid "rejected comment on unqualified post %s"
+msgstr "commentaire rejeté sur article non qualifié %s"
+
+#. translators: this is the word used to unsubscribe via email reply
+#: core/matchers/unsubscribe-matcher.php:18
+msgid "unsubscribe"
+msgstr "désabonnement"
+
+#. translators: this is the word used to request a subscription via email reply
+#: core/matchers/subscribe-matcher.php:17
+msgid "subscribe"
+msgstr "s'abonner"
+
+#: core/commands/confirmation-command.php:113
+#: core/commands/comment-command.php:131
+msgid "Invalid message"
+msgstr "Message non valide"
+
+#: core/commands/comment-command.php:122
+msgid "Invalid comment keys"
+msgstr "Clés de commentaires non valides"
+
+#: core/command-handling.php:117
+msgid "Tried to create an email with an unrecognized reply command."
+msgstr "Essayé de créer un e-mail avec une commande de réponse non reconnue."
+
+#: core/command-handling.php:84
+msgid "Received a reply with invalid command data."
+msgstr "Reçu une réponse avec les données de commande invalides."
+
+#: core/ajax-handling.php:31
+msgid "You have unsubscribed."
+msgstr "Vous êtes désabonné."
+
+#: admin/users-handling.php:65
+msgid "%d Conversations"
+msgid_plural "%d Conversations"
+msgstr[0] "%d commentaire"
+msgstr[1] "%d commentaires"
+
+#: admin/users-handling.php:54
+msgid "%d Author"
+msgid_plural "%d authors"
+msgstr[0] "%d auteur"
+msgstr[1] "%d auteurs"
+
+#: admin/users-handling.php:16
+msgid "Postmatic Subscriptions"
+msgstr "Abonnements Postmatic"
+
+#: admin/subscribe-reloaded-import-options-tab.php:149
+msgid "Import from Subscribe To Comments Reloaded"
+msgstr "Importer depuis Subscribe To Comments Reloaded"
+
+#: admin/subscribe-reloaded-import-options-tab.php:97
+msgid "There was one other subscription found but it had already been imported."
+msgid_plural "There were %2$s other subscriptions found but they had already been imported."
+msgstr[0] "Nous avons trouvé un autre abonnement mais qui a déjà été importé."
+msgstr[1] "Nous avons trouvé %2$s autres abonnemenst mais qui ont déjà été importés."
+
+#: admin/subscribe-reloaded-import-options-tab.php:87
+msgid "We have migrated one subscription.<br />"
+msgid_plural "We have migrated %1$s subscriptions.<br />"
+msgstr[0] "Nous avons migré un abonnement.<br />"
+msgstr[1] "Nous avons migré %1$s abonnements. <br />Vous pouvez maintenant désactiver Subscribe to Comments Reloaded.<br />"
+
+#: admin/subscribe-reloaded-import-options-tab.php:69
+msgid "If you would like to import from Subscribe To Comments Reloaded  please activate that plugin."
+msgstr "Si vous voulez importer les abonnés de Subscribe To Comments Reloaded, il faut activer l&rsquo;extension MailPoet."
+
+#: admin/subscribe-reloaded-import-options-tab.php:46
+msgid "You must be running Subscribe to Comments <strong>Reloaded</strong> to use this migration tool. Please upgrade to Reloaded if you have not already. View <a href=\"%s\" target=\"_blank\">this support article</a> for more information."
+msgstr "Vous devez utiliser Subscribe to Comments <strong>Reloaded</strong> pour utiliser cet outil de migration. Veuillez mettre à niveau vers Reloaded si ce n'est pas encore fait. Référez-vous à <a href=\"%s\" target=\"_blank\">cet article du support</a> pour plus d'informations."
+
+#: admin/subscribe-reloaded-import-options-tab.php:43
+msgid "Important information before you get started:"
+msgstr "Informations importantes avant de vous lancer&nbsp;:"
+
+#: admin/subscribe-reloaded-import-options-tab.php:39
+msgid "Subscribers are imported silently and without notice sent. When the import has finished you can disable your legacy subscription plugin."
+msgstr "Les abonnés sont importés en silence et sans envoi de notification. Une fois l'importation terminée, vous pourrez désactiver votre abonnement à l&rsquo;ancienne extension."
+
+#: admin/subscribe-reloaded-import-options-tab.php:33
+msgid "This utility will migrate comment subscriptions from Subscribe to Comments, Subscribe to Comments Reloaded, and Subscribe to Double-Opt-In Comments."
+msgstr "Cet utilitaire va permettre la migration des abonnements aux commentaires de Subscribe to Comments, Subscribe to Comments Reloaded, et Subscribe to Double-Opt-In Comments."
+
+#: admin/subscribe-reloaded-import-options-tab.php:31
+msgid "Migrate Comment Subscriptions"
+msgstr "Migrer les abonnements aux commentaires"
+
+#: admin/options-page.php:509
+msgid "Your key was registered for a different site. Please request a key for this site's dedicated use, or <a href=\"%s\" target=\"_blank\">contact us</a> for assistance. Thanks!"
+msgstr "Votre clé a été rejetée pour un site différent. Demndez une clé spécifique pour ce site, <a href=\"%s\" target=\"_blank\">contactez-nous</a> pour une assistance. Merci !"
+
+#: admin/options-page.php:495
+msgid "We didn't recognize the key \"%s\". Please make sure it exactly matches the key we supplied you. <a href=\"%s\" target=\"_blank\">Visit your Replyable dashboard for assistance</a>. "
+msgstr "Nous n’avons pas reconnu la clé « %s ». Merci de vérifier qu'elle corresponde exactement à celle que nous vous avons envoyé. <a href=\"%s\" target=\"_blank\">Rendez-vous sur votre tableau de bord Replyable pour recevoir de l'aide</a>."
+
+#: admin/options-page.php:484
+msgid "Replyable service is temporarily unavailable, see <a href=\"%s\">our twitter feed</a> for updates."
+msgstr "Le service Replyable est temporairement indisponible, suivez <a href=\"%s\">notre flux Twitter</a> pour plus d’informations."
+
+#: admin/options-page.php:477
+msgid "There's a problem verifying your key. Please try later or report this error."
+msgstr "Il y a un problème avec la vérification de votre clé. Essayer plus tard ou rapporter cette erreur."
+
+#: admin/options-page.php:374
+msgid "Submit A Bug Report"
+msgstr "Soumettre un rapport de bug"
+
+#: admin/options-page.php:367
+msgid "<strong>Attention:</strong> There have been some recent errors in your configuration. An error log can be found here: "
+msgstr "<strong>Attention :</strong> Il y a eu quelques erreurs récentes dans votre configuration. Un journal des erreurs peut être trouvé ici :"
+
+#: admin/options-page.php:165
+msgid "Request sent. We are currently sending a few hundred tokens per week. Expect to receive yours within 1-2 days. You can safely leave Postmatic activated but it is not necessary to do so."
+msgstr "Demande envoyée. Nous sommes en train d'envoyer quelques centaines de jetons par semaine. Attendez-vous à le recevoir en 1-2 jours. Vous pouvez laisser activé Postmatic en toute sécurité mais il n'est pas nécessaire de le faire."
+
+#: admin/options-page.php:158
+msgid "Report sent! Our bug munchers thank you for the meal."
+msgstr "Rapport envoyé ! Nos mangeurs de bugs vous remercient pour le repas."
+
+#: admin/options-page.php:149
+msgid "Settings <strong>saved</strong>."
+msgstr "Réglages <strong>enregistrés</strong>."
+
+#. Author of the plugin
+msgid "Postmatic"
+msgstr "Postmatic"
+
+#: admin/comment-options-tab.php:137
+msgid "Replyable automatically pauses comment notifications on posts that go viral. Setting the trigger to be 6 comments per hour is good for most sites. You can read more about it <a href=\"%s\" target=\"_blank\">on our support site</a>.  "
+msgstr "Replyable met automatiquement en pause les notifications de commentaires sur les articles qui deviennent viraux. Le réglage de 6 commentaires par heure fonctionne pour la plupart des sites. Vous pouvez en savoir plus à ce sujet <a href=\"%s\" target=\"_blank\">sur notre site de support</a>."
+
+#: admin/comment-options-tab.php:131
+msgid "Comment flood control"
+msgstr "Contrôle des flux de commentaires"
+
+#: admin/comment-options-tab.php:127
+msgid "This text is displayed by the checkbox on the comment form."
+msgstr "Ce texte est affiché par la case à cocher sur le formulaire de commentaire."
+
+#: admin/comment-options-tab.php:124
+msgid "Comment form opt-in text"
+msgstr "Texte du formulaire d&rsquo;opt-in de commentaires"
+
+#: admin/comment-options-tab.php:117
+msgid "Please note this may place you in violation of European and Canadian spam laws. Be sure to do your homework."
+msgstr "Veuillez noter que cela peut-être en violation des lois anti-spam européennes et canadiennes. renseignez-vous et assurez-vous de faire ce qu'il faut."
+
+#: admin/comment-options-tab.php:115
+msgid "Subscribe commenters to the conversation by default."
+msgstr "Abonner les commentateurs à la discussion par défaut."
+
+#: admin/comment-options-tab.php:112
+msgid "Comment form opt-in"
+msgstr "Formulaire opt-in de commentaires"
+
+#: admin/notice-handling.php:180
+msgid "Heads up: We noticed there is an active Jetpack module which is not compatible with Postmatic. You'll need to fix that. <a href=\"%s\" target=\"_blank\">Learn how to do so here</a>."
+msgstr "Attention ! Nous avons repéré un module Jetpack inactivé qui est incompatible avec Postmatic. Vous devez régler ce problème. <a href=\"%s\" target=\"_blank\">Apprendre comment le faire ici</a>."
+
+#: admin/notice-handling.php:151
+msgid "Please <a href=\"%s\">update Postmatic</a> now to resume service. The current version is no longer supported. Thanks!"
+msgstr "Veuillez <a href=\"%s\">mettre à jour Postmatic</a> maintenant pour relancer le service. La version actuelle n'est plus supportée. Merci&nbsp;!"
+
+#: admin/subscribe-reloaded-import-options-tab.php:83
+msgid "Here's how it went:"
+msgstr "Voici ce qui s'est passé :"
+
+#: admin/import-options-tab.php:32
+msgid "You have User Account notifications enabled in the Options tab, which means that each new subscriber imported will receive an email with their credentials. It is not necessary to send these credentials to Postmatic subscribers as all subscriber functions can be done directly via email. If you would like to disable these notifications please do so in the Options tab above."
+msgstr "Vous avez les notifications de compte d'utilisateur activé dans l'onglet Options, ce qui signifie que chaque nouvel abonné importé recevra un e-mail avec ses droits d'accès. Il n'est pas nécessaire d'envoyer ces informations d'identification pour les abonnés Postmatic car toutes les actions d'abonné peuvent être exécutées directement depuis l'e-mail. Si vous souhaitez désactiver ces notifications, faites-le dans l'onglet Options ci-dessus."
+
+#: admin/import-options-tab.php:30
+msgid "Important:"
+msgstr "Important :"
+
+#: admin/import-options-tab.php:22
+msgid "Import results are below."
+msgstr "Les résultats de l'importation sont ci-dessous."
+
+#: admin/import-options-tab.php:10
+msgid "Import Users"
+msgstr "Importer des utilisateurs"
+
+#: admin/email-options-tab.php:286
+msgid "Send"
+msgstr "Envoyer"
+
+#: admin/email-options-tab.php:272
+msgid "Send a test email to"
+msgstr "Envoyer un e-mail de test à"
+
+#: admin/email-options-tab.php:260
+msgid "Email footer text"
+msgstr "Texte de pied de page d'e-mail"
+
+#: admin/email-options-tab.php:231
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: admin/email-options-tab.php:240
+msgid "Email header text"
+msgstr "Texte d'en-tête de l'e-mail"
+
+#: admin/email-options-tab.php:83
+msgid "Test email <strong>sent</strong>."
+msgstr "L&rsquo;e-mail de test a bien été <strong>envoyé</strong>."
+
+#: admin/email-options-tab.php:57
+msgid "Test email was <strong>not sent</strong> to an invalid address."
+msgstr "L’e-mail de test <strong>n'a pas été envoyé</strong> vers une adresse non-valide."
+
+#: admin/options-page.php:373 admin/notice-handling.php:203
+#: admin/conditional-notice.php:102
+msgid "Dismiss"
+msgstr "Ignorer"
